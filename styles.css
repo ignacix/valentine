@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 40%;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button#positiveBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  button#negativeBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
